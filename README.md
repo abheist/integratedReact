@@ -1,6 +1,6 @@
 # Django integration with react
 
-This repo demonstrate the setup for integrating React with Django for client-side rendering. Instead of saperating django and react app. React can sit on each django template and esbuild will out the module file for each django teamplte based on components used. It uses multiple Django templates to load different JavaScript files for each URL.
+This repository demonstrates the setup for integrating React with Django for client-side rendering. Instead of separating Django and React applications, this setup allows React components to be embedded directly within Django templates. Each Django template loads a specific JavaScript module built by esbuild, which handles the React components for that page. This approach ensures a seamless integration, where multiple Django templates can load different JavaScript files based on the URL.
 
 - Multiple Templates for Different Pages: Use separate HTML templates to serve different React components.
 - Dynamic JavaScript Loading: Load specific React components for each page.
