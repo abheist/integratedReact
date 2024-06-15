@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}About Page{% endblock %}
+
+{% block script %}
+    <script>
+        const helloAbhishek = "hello Abhishek, something is cooking on about page!";
+    </script>
+    <script type="module" src="{% static 'dist/about.js' %}"></script>
+{% endblock %}
